@@ -10,7 +10,7 @@ homepage = "https://github.com/tZ3ma/tessif_calliope_0_6_6post1"
 keywords = ["Tessif", "Tessif-Calliope", "ESSMOS", "optimization", "energy supply system modelling"]
 
 [tool.poetry.dependencies]
-python = "^3.8"
+python = ">=3.8,<3.9"
 calliope = "0.6.6post1"
 tessif = ">=0.0.25"
 numpy = "<1.20"
