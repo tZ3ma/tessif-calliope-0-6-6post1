@@ -1,7 +1,7 @@
-tessif-pypsa-0-19-3
+tessif-calliope-0-6-6post1
 =================================================================================================
 
-tessif-pypsa-0-19-3 has been developed as part of the Tessif project.
+tessif-calliope-0-6-6post1 has been developed as part of the Tessif project.
 
 It uses the excellent Hypermodern-Python_ project foundation proposed by
 `Claudio Jolowicz <cj>`_.

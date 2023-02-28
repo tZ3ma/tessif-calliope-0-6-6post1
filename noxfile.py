@@ -55,6 +55,7 @@ def tests(session):
         "pytest",
         "pytest-cov",
         "pytest-mock",
+        "tessif-examples",
     )
     session.run("pytest", *args)
 
@@ -91,10 +92,10 @@ def pylint(session):
     session.run("poetry", "install", "--no-dev", external=True)
     session.install(
         "pytest",
-        "requests",
         "nox",
         "nox-poetry",
         "pylint",
+        "tessif-examples",
     )
     session.run("pylint", "--output-format=colorized", "--recursive=y", *args)
 
@@ -113,7 +114,8 @@ def xdoctest(session):
     args = session.posargs or ["all"]
     session.run("poetry", "install", "--no-dev", external=True)
     session.install("xdoctest", "pygments")
-    session.run("python", "-m", "xdoctest", "tessif_pypsa_0_19_3", *args)
+    session.run("python", "-m", "xdoctest",
+                "tessif_calliope_0_6_6post1", *args)
 
 
 @nox_poetry.session(python="3.10")
@@ -160,10 +162,10 @@ def docs_rebuild(session):
     session.install(
         "sphinx",
         "sphinx-click",
-        "furo",
         "sphinx-paramlinks",
         "sphinx-rtd-theme",
         "pytest",
+        "tessif-examples",
     )
     build_dir = Path("docs", "_build")
     if build_dir.exists():

@@ -18,9 +18,9 @@ List of important resources for contributors
 - `Code of Conduct`_
 
 .. _MIT license: https://opensource.org/licenses/MIT
-.. _Source Code: https://github.com/tZ3ma/tessif_pypsa_0_19_3
-.. _Documentation: https://tessif_pypsa_0_19_3.readthedocs.io/
-.. _Issue Tracker: https://github.com/tZ3ma/tessif_pypsa_0_19_3/issues
+.. _Source Code: https://github.com/tZ3ma/tessif_calliope_0_6_6post1
+.. _Documentation: https://tessif_calliope_0_6_6post1.readthedocs.io/
+.. _Issue Tracker: https://github.com/tZ3ma/tessif_calliope_0_6_6post1/issues
 
 How to report a bug
 -------------------
@@ -65,7 +65,7 @@ or the command-line interface:
 .. code:: console
 
    $ poetry run python
-   $ poetry run tessif_pypsa_0_19_3
+   $ poetry run tessif_calliope_0_6_6post1
 
 .. _Poetry: https://python-poetry.org/
 .. _Nox: https://nox.thea.codes/
@@ -121,6 +121,6 @@ To run linting and code formatting checks before committing your change, you can
 It is recommended to open an issue before starting work on anything.
 This will allow a chance to talk it over with the owners and validate your approach.
 
-.. _pull request: https://github.com/tZ3ma/tessif_pypsa_0_19_3/pulls
+.. _pull request: https://github.com/tZ3ma/tessif_calliope_0_6_6post1/pulls
 .. github-only
 .. _Code of Conduct: CODE_OF_CONDUCT.rst

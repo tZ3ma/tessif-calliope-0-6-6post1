@@ -3,7 +3,7 @@
 import pytest
 import tessif_examples.basic as tsf_exmp_bsc
 
-from tessif_pypsa_0_19_3 import optimize, transform
+from tessif_calliope_0_6_6post1 import optimize, transform
 
 # tessif-examples sytem model creation functionalities
 # reside in an identically named module minus the "create" prefix

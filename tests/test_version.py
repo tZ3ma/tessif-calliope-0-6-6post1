@@ -1,6 +1,6 @@
 # tests/test_version.py
 """Examplary test package to test version related issues."""
-from tessif_pypsa_0_19_3 import __version__
+from tessif_calliope_0_6_6post1 import __version__
 
 
 def test_verssion_access():

@@ -3,6 +3,6 @@
 Optimize
 =========
 
-.. automodule:: tessif_pypsa_0_19_3.optimize
+.. automodule:: tessif_calliope_0_6_6post1.optimize
    :members:
    :show-inheritance:

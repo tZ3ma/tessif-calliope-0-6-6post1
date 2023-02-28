@@ -33,7 +33,7 @@ print(sys.path)
 
 # -- Project information -----------------------------------------------------
 
-project = "tessif_pypsa_0_19_3 - Hypermodern Python Project Template"
+project = "tessif_calliope_0_6_6post1 - Hypermodern Python Project Template"
 author = "Mathias Ammon"
 copyright = f"2022, {author}"  # pylint: disable=redefined-builtin
 
@@ -52,7 +52,7 @@ extensions = [
 
 html_theme = "sphinx_rtd_theme"
 html_theme_options = {
-    "canonical_url": "https://github.com/tZ3ma/tessif_pypsa_0_19_3/",
+    "canonical_url": "https://github.com/tZ3ma/tessif_calliope_0_6_6post1/",
     "display_version": True,
     "sticky_navigation": True,
     # 'style_nav_header_background': '#009682',

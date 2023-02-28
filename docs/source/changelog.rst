@@ -5,4 +5,4 @@ Changelog
 
 See the `Github Releases`_ webpage for what is new :)
 
-.. _Github Releases: https://github.com/tZ3ma/tessif-pypsa-0-19-3/releases
+.. _Github Releases: https://github.com/tZ3ma/tessif-calliope-0-6-6post1/releases

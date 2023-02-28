@@ -247,9 +247,9 @@ commands:
 
    poetry add package^1.0
    poetry add "package>=1.0"
-   poetry add tessif_pypsa_0_19_3@latest
-   poetry add git+https://github.com/tZ3ma/tessif_pypsa_0_19_3.git
-   poetry add git+https://github.com/tZ3ma/tessif_pypsa_0_19_3.git#develop
+   poetry add tessif_calliope_0_6_6post1@latest
+   poetry add git+https://github.com/tZ3ma/tessif_calliope_0_6_6post1.git
+   poetry add git+https://github.com/tZ3ma/tessif_calliope_0_6_6post1.git#develop
    poetry add ./my-package/
 
 Adding local dependencies in editable mode
