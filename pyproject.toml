@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "tessif-calliope-0-6-6post1"
-version = "0.1.1"
+version = "0.1.2"
 description = "Tessif-Plugin for providing Calliope version 0.6.6post1 support."
 authors = ["Mathias Ammon <tz3ma.coding@use.startmail.com>"]
 license = "MIT"
